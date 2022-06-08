@@ -1,0 +1,23 @@
+.crono{
+    display: flex;
+    flex-direction: row;
+}
+
+.years{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.year{
+    margin: 12px 0px 12px 0px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #232A2A;
+
+}
+
+.arrow-guide{
+    height: 80%;
+}
