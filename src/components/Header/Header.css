@@ -1,0 +1,22 @@
+.header {
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+    .miniLogo{
+        width: 63px;
+        height: 51px;
+        margin: 6px;
+    }
+
+/*MEDIAS*/
+
+@media (min-width: 950px) {
+    .header {
+        padding: 24px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+

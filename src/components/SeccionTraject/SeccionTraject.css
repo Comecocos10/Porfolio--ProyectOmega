@@ -1,0 +1,56 @@
+.total-trajectory {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 66px 24px 66px 24px;
+    
+}
+
+.trajectory {
+    width: 65px;
+    height: 51px;
+}
+
+.text-trajectory {
+    margin: 0px 12px 0px 12px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #232A2A;
+
+}
+
+.trajectory-open {
+    background-image: '../../recursos/cabecera-gray.png';
+    padding: 12px;
+    position: absolute;
+    transform: translateX(40px);
+    max-width: 306px;
+    
+}
+
+.img-info{
+    position: absolute;
+    z-index: -1;
+    height: 99px;
+}
+
+.text-info{
+    margin: 3px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    color: #232A2A;
+    z-index: 2; 
+}
+
+.info-trajectory{
+    margin-left: 24px;
+    margin-top: 6px;
+}
+    .one{
+        margin-left: 20px;
+        font-weight: 600;
+    }
+

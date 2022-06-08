@@ -1,0 +1,23 @@
+.threeDseccion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 15% 0 15%;
+}
+
+.model-seccion {
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+}
+
+
+/*MEDIAS*/
+
+@media (min-width: 950px) {
+    .model-seccion {
+        margin: 0 0 25px 0;
+    }
+
+}
