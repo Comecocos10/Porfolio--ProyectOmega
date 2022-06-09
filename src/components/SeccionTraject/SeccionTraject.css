@@ -1,10 +1,9 @@
 .total-trajectory {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: row;
-    margin: 66px 24px 66px 24px;
-    
+    margin: 48px 12px 48px 72px;
 }
 
 .trajectory {
@@ -13,44 +12,93 @@
 }
 
 .text-trajectory {
-    margin: 0px 12px 0px 12px;
+    margin: 0px 6px 0px 6px;
     font-family: 'Oswald', sans-serif;
-    font-size: 20px;
-    font-weight: 600;
-    color: #232A2A;
 
+    font-size: 18px;
+    font-weight: 400;
+    color: #232A2A;
 }
 
 .trajectory-open {
     background-image: '../../recursos/cabecera-gray.png';
     padding: 12px;
     position: absolute;
-    transform: translateX(40px);
-    max-width: 306px;
-    
+    max-width: 206px;
+    transform: translateX(28px);
 }
 
 .img-info{
-    position: absolute;
-    z-index: -1;
-    height: 99px;
+    position: relative;
+    top: 42px;
+    left: 30px;
+    height: 90px;
 }
 
 .text-info{
+    position: relative;
+    top: -52px;
+    left: 25px;
     margin: 3px;
     font-family: 'Oswald', sans-serif;
-    font-size: 1em;
+    font-size: 0.8em;
     font-weight: 300;
     color: #232A2A;
-    z-index: 2; 
+    min-width: 145px;
 }
 
 .info-trajectory{
-    margin-left: 24px;
-    margin-top: 6px;
+    margin-left: 18px;
+    margin-top: 12px;
 }
     .one{
-        margin-left: 20px;
+        margin-left: 18px;
         font-weight: 600;
     }
 
+.line-traject{
+    display: none;
+}
+
+
+@media (min-width: 1050px) {
+    .total-trajectory {
+        justify-content: flex-start;
+        margin: 66px 0 66px 24%;
+    }
+    
+    .trajectory {
+        width: 85px;
+        height: 71px;
+    }
+
+    .text-trajectory {
+        font-size: 24px;
+    }
+
+    .trajectory-open {
+        position: absolute;
+        transform: translateX(650px);
+        max-width: 406px;
+    }
+
+    .img-info {
+        top: 40px;
+        left: 35px;
+        height: 110px;
+    }
+
+    .text-info {
+        top: -70px;
+        left: 30px;
+        font-size: 1em;
+    }
+
+    .line-traject {
+        display: flex;
+        justify-content: flex-start;
+
+    }
+    
+
+}

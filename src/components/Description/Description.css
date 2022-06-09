@@ -1,13 +1,13 @@
 .Description{
-    max-width:800px;
-
+    max-width: 800px;
+    
 }
 
 .titel-iam{
     font-family: 'Oswald', sans-serif;
     font-size: 3rem;
     font-weight: 600;
-    margin: 0 0 0 5%;
+    margin: 0 18px 0 18px;
     color: #232A2A;
 }
 .paragraf-iam{
@@ -42,7 +42,7 @@
     .text-iam {
         font-family: 'Oswald', sans-serif;
         font-size: 1.2rem;
-        font-weight: 300;
+        font-weight: 400;
     }
 
     .img-iam {
