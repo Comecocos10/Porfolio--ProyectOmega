@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './SeccionTraject.css';
 import fondo from '../../recursos/cabecera-gray.png'
 
+
 export default function SeccionTraject(props) {    
         
     const [isOpened2, setIsOpened] = useState(false);
@@ -11,16 +12,17 @@ export default function SeccionTraject(props) {
     }
     
     return  <div className='total-trajectory'>
+        <img className='line-traject' src={props.line} alt="" />
         <button className='trajectory' onClick={showTrajectory}>
             <img src="" alt="" />
         </button>
-        <p className='text-trajectory'> {props.nametraject} Titulacion/Puesto </p>
-        {isOpened === true ? <section className='trajectory-open'>
+        <p className='text-trajectory'>{props.nametraject}</p>
+        {isOpened2 === true ? <section className='trajectory-open'>
             <img className='img-info' src={fondo} alt="" />
             <div className='info-trajectory'>
-                <p className='text-info one'> {props.name} Titulacion/Puesto </p>
-                <p className='text-info two'> {props.year} 0000 - 0000 </p>
-                <p className='text-info three'> {props.local} I.E.S Tirant lo blanc </p>
+                <p className='text-info one'> {props.nametraject}</p>
+                <p className='text-info two'> {props.year}</p>
+                <p className='text-info three'> {props.local}</p>
             </div>
         </section> : ''}
     </div>

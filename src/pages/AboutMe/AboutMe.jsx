@@ -8,20 +8,24 @@ import Likes from '../../components/Likes/Likes';
 
 function AboutMe() {
     return (
-        <div className="AboutMe">
+        <div>
+
             <Link className='text-decoration' to='/'>
                 <ButtomBack />
             </Link>
-            <Description/>
-            <h1 className='titel-like'>... and I liked...</h1>
-            <Likes
-                videolike=""
-                titulolike=""
-                nombrelike=""
-                imagenlike=""/>
-            <Likes/>
-            <Likes/>
-            <Likes/>
+            <section className="AboutMe">
+                <Description/>
+                <h1 className='titel-like'>... and I liked...</h1>
+                <Likes
+                    videolike=""
+                    titulolike=""
+                    nombrelike=""
+                    imagenlike=""/>
+                <Likes/>
+                <Likes/>
+                <Likes/>  
+            </section>
+            
         </div>
     );
 }
